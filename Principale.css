@@ -50,20 +50,29 @@ hr{
     overflow-y: hidden;
     white-space: nowrap;
     overflow-x: scroll;
-    scrollbar-color: black white;
+    scrollbar-color: red yellow;
 
 }
 .Ligne a{
     margin-left: 20px;
 }
-.mot{
+.boxe::-webkit-scrollbar{
+    background-color: white;
+    border-radius: 30px;
+    border-style: solid;
+    
+}
+.boxe::-webkit-scrollbar-thumb{
+    background-color: goldenrod;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+}
+.mots{
+    text-align: center;
+    color: white;
+}
+.prenvention{
+    text-align: center;
     color: red;
-    text-align: center;
-}
-.sous{
-    color: white;
-    text-align: center;
-}
-.video1 {
-    color: white;
 }
